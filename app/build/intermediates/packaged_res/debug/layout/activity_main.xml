@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linearLayouts"
+        android:layout_width="match_parent"
+        android:layout_height="2400dp"
+        android:background="#FDFCFC"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C9EAE4E4"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                tools:ignore="ExtraText">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="52dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/buttonshape"
+                    android:src="@drawable/ic_islington"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:id="@+id/txTitle"
+                    android:layout_width="235dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="10sp"
+                    android:text="Islington College"
+                    android:textAlignment="center"
+                    android:textColor="#040303"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableRight="@drawable/ic_more_vert" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#4C4A4A"
+                android:src="@drawable/ic_flower_img"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints">
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_favorite_border" />
+
+                    <View
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/ic_message_border" />
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_near_border" />
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_bookmark_border" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvLike"
+                        android:layout_width="102dp"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="847 likes"
+                        android:textColor="#0B0A0A"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tvMessage"
+                        android:layout_width="378dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Islington College today we are celebrate the 3 year...more"
+                        android:textColor="#070707"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/tvView"
+                        android:layout_width="202dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="View all 5 comments"
+                        android:textColor="#8E8A8A"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:id="@+id/tvDay"
+                        android:layout_width="134dp"
+                        android:layout_height="36dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="5 days ago"
+                        android:textColor="#8E8A8A"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C9EAE4E4"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                tools:ignore="ExtraText">
+
+                <ImageView
+                    android:layout_width="54dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/buttonshape"
+                    android:src="@drawable/ic_islington"></ImageView>
+
+                <TextView
+                    android:id="@+id/txTitles"
+                    android:layout_width="238dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="10sp"
+                    android:text="Islington College"
+                    android:textAlignment="center"
+                    android:textColor="#040303"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableRight="@drawable/ic_more_vert" />
+            </LinearLayout>
+            <ImageView
+                android:background="#4C4A4A"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/ic_flower_img"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints">
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_favorite_border" />
+                    <View
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_message_border" />
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_near_border" />
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_bookmark_border" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvLikes"
+                    android:layout_width="102dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#090909"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="847 likes"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/tvMessages"
+                    android:layout_width="378dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#0C0C0C"
+                    android:text="Islington College today we are celebrate the 3 year...more"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/tvViews"
+                    android:layout_width="202dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="View all 5 comments"
+                    android:textColor="#8E8A8A"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/tvDays"
+                    android:layout_width="134dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="5 days ago"
+                    android:textColor="#8E8A8A"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C9EAE4E4"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                tools:ignore="ExtraText">
+
+                <ImageView
+                    android:layout_width="52dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/buttonshape"
+                    android:src="@drawable/ic_islington"></ImageView>
+
+                <TextView
+                    android:id="@+id/txTitl"
+                    android:layout_width="241dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="10sp"
+                    android:text="Islington College"
+                    android:textAlignment="center"
+                    android:textColor="#040303"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableRight="@drawable/ic_more_vert"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="#4C4A4A"
+                android:src="@drawable/ic_flower_img" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="63dp"
+                    android:orientation="horizontal"
+                    tools:ignore="MissingConstraints">
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_favorite_border" />
+                    <View
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_message_border" />
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_near_border" />
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/ic_bookmark_border" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvLik"
+                    android:layout_width="102dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#0C0C0C"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="847 likes"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/tvMess"
+                    android:layout_width="378dp"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#101010"
+                    android:text="Islington College today we are celebrate the 3 year...more"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/tvVie"
+                    android:layout_width="202dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="View all 5 comments"
+                    android:textColor="#8E8A8A"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/tvDa"
+                    android:layout_width="134dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="5 days ago"
+                    android:textColor="#8E8A8A"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
